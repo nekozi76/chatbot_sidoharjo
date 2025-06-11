@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 from sklearn.model_selection import GridSearchCV
 
 # Memuat data dari file JSON
-with open('dataset copy.json', 'r') as file:
+with open('dataset.json', 'r') as file:
     data = json.load(file)
 
 # Menyiapkan data untuk DataFrame
