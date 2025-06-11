@@ -1,6 +1,6 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters
-from Bot3 import chatbot_response
+from bot import chatbot_response
 
 async def handle_message(update: Update, context):
     user_input = update.message.text
